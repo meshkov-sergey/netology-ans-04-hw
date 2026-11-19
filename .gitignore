@@ -1,0 +1,25 @@
+# --- Игнорируем папку с ролями (они лежат в своих репозиториях) ---
+roles/
+
+# --- Ansible ---
+*.retry
+.ansible/
+ansible.log
+*.pyc
+__pycache__/
+
+# --- Vault ---
+.vault_pass
+vault_pass.txt
+*.vault
+
+# --- Docker & Скачанные артефакты ---
+*.rpm
+*.tar.gz
+*.log
+
+# --- IDE и ОС ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

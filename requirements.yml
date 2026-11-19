@@ -1,0 +1,15 @@
+---
+- src: https://github.com/meshkov-sergey/clickhouse-role.git
+  scm: git
+  version: "main"
+  name: clickhouse-role
+
+- src: https://github.com/meshkov-sergey/vector-role.git
+  scm: git
+  version: "main"
+  name: vector-role
+
+- src: https://github.com/meshkov-sergey/lighthouse-role.git
+  scm: git
+  version: "main"
+  name: lighthouse-role
